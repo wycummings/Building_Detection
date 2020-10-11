@@ -42,7 +42,7 @@ The use of tta was proven to lower the score
 
 After adjusting the stride, 1/6 of the patch size yielded the highest score.  
 
-The GPU capacity was 8GBs.
+The GPU capacity was 8GB.
 The largest patch size runnable on the GPU was 704. 704 patch size returned the following results. 
 
 Patch Size | Stride | Score
