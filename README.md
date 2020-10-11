@@ -1,5 +1,5 @@
 # Building Detection
-The following scripts were used to detect buildings using aerial imagery. The data set was 100 aerial images over several Japanese cities. 
+The following scripts were used for semantic segmentation of buildings using aerial images . The data set was 100 aerial images over several Japanese cities. 
 
 ## Required Libraries 
 torchvision, torch, Numpy, OpenCV and PIL.
@@ -7,7 +7,7 @@ torchvision, torch, Numpy, OpenCV and PIL.
 ## Learning
 - train.py
   - The model used was NestedUnet.
-  - Taken from the following paper https://arxiv.org/abs/1807.10165
+  - NestedUnet was used from the following paper https://arxiv.org/abs/1807.10165
 
 ## Implementation
 - Use the trained model in apply.py.
